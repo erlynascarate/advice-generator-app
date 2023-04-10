@@ -14,12 +14,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Try to do the things that you're incapable of.](./screenshot.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-KcaK4LXhXv](https://www.frontendmentor.io/solutions/advice-generator-app-KcaK4LXhXv)
+-   Live Site URL: [https://erlynascarate.github.io/advice-generator-app/](https://erlynascarate.github.io/advice-generator-app/)
 
 ## Built with
 

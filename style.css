@@ -120,7 +120,7 @@ html {
 
 body {
     display: grid;
-    align-content: space-between;
+    grid-template-rows: 1fr auto 0.69fr auto;
     justify-items: center;
     block-size: 100vh;
     font-size: 1.6rem;
@@ -136,7 +136,7 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 14px;
-    padding-block: 32px 60px;
+    padding-block: 40px 60px;
     inline-size: 90%;
     max-inline-size: 36rem;
     background-color: var(--DarkGrayishBlue);
@@ -198,7 +198,7 @@ body {
 
 /* Footer */
 .footer {
-    grid-row: 3;
+    grid-row: 4;
     padding-block: 2rem;
     padding-inline: 5%;
     text-align: center;
