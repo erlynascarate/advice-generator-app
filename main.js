@@ -20,5 +20,3 @@ async function generateAdvice() {
         alert('An error occurred')
     }
 }
-
-generateAdvice()

@@ -113,7 +113,7 @@ button {
 }
 
 html {
-    font-size: clamp(0.6rem, 0.425rem + 1vw, 1rem);
+    font-size: clamp(0.6rem, 0.525rem + 0.5vw, 0.73rem);
     font-family: 'Manrope', sans-serif;
     color-scheme: dark;
 }
@@ -138,7 +138,7 @@ body {
     border-radius: 14px;
     padding-block: 40px 60px;
     inline-size: 90%;
-    max-inline-size: 36rem;
+    max-inline-size: 46rem;
     background-color: var(--DarkGrayishBlue);
 }
 
@@ -152,13 +152,13 @@ body {
 .advice__text {
     margin-block-start: 24px;
     inline-size: 88%;
-    font-size: 22px;
+    font-size: 2.4rem;
     text-align: center;
 }
 
 .advice__text::before,
 .advice__text::after {
-    font-size: 22px;
+    font-size: 2.4rem;
 }
 
 .advice__divider,
