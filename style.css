@@ -191,7 +191,8 @@ body {
     cursor: pointer;
 }
 
-.advice__btn:hover {
+.advice__btn:hover,
+.advice__btn:focus-visible {
     box-shadow: 0 0 30px 0 var(--NeonGreen);
 }
 
