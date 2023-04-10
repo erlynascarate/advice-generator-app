@@ -21,16 +21,14 @@
         />
 
         <link rel="stylesheet" href="./style.css" />
+        <script defer src="./main.js"></script>
     </head>
     <body>
         <article class="advice">
             <h1 class="advice-number">
-                Advice #<span class="advice-number__number">117</span>
+                Advice #<span class="advice-number__number">0</span>
             </h1>
-            <q class="advice__text"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia dolorem beatae dicta voluptatum</q
-            >
+            <q class="advice__text">Loading...</q>
             <svg
                 class="advice__divider"
                 width="295"
@@ -59,7 +57,7 @@
                     </g>
                 </g>
             </svg>
-            <button class="advice__btn">
+            <button class="advice__btn" onclick="generateAdvice()">
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
