@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Try to do the things that you're incapable of.](./screenshot.png)
+![Try to do the things that you're incapable of.](./public/screenshot.png)
 
 ### Links
 
@@ -23,11 +23,10 @@ Users should be able to:
 
 ## Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid
 -   Mobile-first workflow
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Vite](https://vitejs.dev/)
+-   [React](https://react.dev/) - JS library
 
 ## Author
 
