@@ -1,4 +1,3 @@
-/* ---- Reset CSS ---- */
 html,
 body,
 div,
@@ -63,7 +62,6 @@ th,
 td,
 article,
 aside,
-canvas,
 details,
 embed,
 figure,
@@ -73,7 +71,6 @@ header,
 hgroup,
 nav,
 output,
-ruby,
 section,
 summary,
 time,
@@ -100,30 +97,4 @@ ul {
 
 button {
     background-color: transparent;
-}
-
-/* Global */
-:root {
-    --LightCyan: hsl(193, 38%, 86%);
-    --NeonGreen: hsl(150, 100%, 66%);
-
-    --GrayishBlue: hsl(217, 19%, 38%);
-    --DarkGrayishBlue: hsl(217, 19%, 24%);
-    --DarkBlue: hsl(218, 23%, 16%);
-}
-
-html {
-    font-size: clamp(0.6rem, 0.525rem + 0.5vw, 0.73rem);
-    font-family: 'Manrope', sans-serif;
-    color-scheme: dark;
-}
-
-#root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-block-size: 100vh;
-    font-size: 1.6rem;
-    color: var(--LightCyan);
-    background-color: var(--DarkBlue);
 }

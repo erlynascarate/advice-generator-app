@@ -25,8 +25,9 @@ Users should be able to:
 
 -   Mobile-first workflow
 -   [TypeScript](https://www.typescriptlang.org/)
--   [Vite](https://vitejs.dev/)
 -   [React](https://react.dev/) - JS library
+-   [Sass](https://sass-lang.com/) - CSS with superpowers
+-   [Vite](https://vitejs.dev/)
 
 ## Author
 

@@ -1,0 +1,66 @@
+@use 'base' as *;
+
+.advice {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 24px 52px;
+    border-radius: 14px;
+    padding-block: 40px 60px;
+    inline-size: 90%;
+    max-inline-size: 46rem;
+    background-color: $paper;
+
+    &-number {
+        font-size: 1rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: $primary;
+    }
+
+    &__text {
+        margin-block-start: 24px;
+        inline-size: 88%;
+        font-size: 2.4rem;
+        text-align: center;
+
+        &::before,
+        &::after {
+            font-size: 2.4rem;
+        }
+    }
+
+    &__divider {
+        @extend %hide-divider;
+
+        @media (min-width: 370px) and (max-width: 749px) {
+            display: block;
+        }
+
+        &--desktop {
+            @extend %hide-divider;
+
+            @media (min-width: 750px) {
+                display: block;
+            }
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        inset-block-end: -28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 16px;
+        background-color: $primary;
+        cursor: pointer;
+
+        &:hover,
+        &:focus-visible {
+            box-shadow: 0 0 30px 0 $primary;
+        }
+    }
+}

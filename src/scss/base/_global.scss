@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+html {
+    font-size: clamp(0.6rem, 0.525rem + 0.5vw, 0.73rem);
+    font-family: 'Manrope', sans-serif;
+    color-scheme: dark;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-block-size: 100vh;
+    font-size: 1.6rem;
+    color: $ink-color;
+    background-color: $page-color;
+}

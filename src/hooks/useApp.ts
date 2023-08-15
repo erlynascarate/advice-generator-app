@@ -4,7 +4,7 @@ const API_URL = 'https://api.adviceslip.com/advice'
 
 const initialState = {
     id: 117,
-    advice: `It is easy to sit up and take notice, what's difficult isgetting up and taking action.`,
+    advice: `It is easy to sit up and take notice, what's difficult is getting up and taking action.`,
 }
 
 const useApp = () => {

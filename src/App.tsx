@@ -1,4 +1,4 @@
-import './App.css'
+import './scss/App.scss'
 import useApp from './hooks/useApp'
 
 function App() {
